@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.hellxz</groupId>
+	<artifactId>log4j2-poc-test</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>log4j2-poc-test</name>
+	<description>Log4j2 LDAP 漏洞测试Demo</description>
+
+	<modules>
+		<module>light-ldap-server</module>
+		<module>gather-result</module>
+		<module>log4j-local-test</module>
+		<module>http-server</module>
+	</modules>
+
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+	</properties>
+
+</project>

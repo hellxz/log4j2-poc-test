@@ -1,0 +1,12 @@
+**/target/
+.mvn
+*.iml
+*.idea
+**/bin
+**/out
+.project
+**/.project
+.settings/
+**/.settings/
+**/.classpath
+**/.factorypath
